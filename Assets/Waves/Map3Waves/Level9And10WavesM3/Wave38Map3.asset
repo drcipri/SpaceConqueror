@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5487459e6467e546aa1da13291221e9, type: 3}
+  m_Name: Wave38Map3
+  m_EditorClassIdentifier: 
+  enemyPrefab:
+  - {fileID: 6503222141802977696, guid: dbf369d7a9343614b8c4edd6f7aa6079, type: 3}
+  - {fileID: 6503222141802977696, guid: 2b621ccd3bdc20e4c89a82ed4ebfb3ac, type: 3}
+  - {fileID: 6503222141802977696, guid: c6ba97a578675b645b3365295c0309ae, type: 3}
+  numbersOfEnemiesType1: 3
+  numbersOfEnemiesType2: 9
+  pathPrefab: {fileID: 2391023686136823664, guid: 82594562148a92040b1dc68cec7de1c2,
+    type: 3}
+  timeBetweenSpawn: 0.2
+  numberOfEnemies: 14
+  enemySpeed: 26
+  movingPoints: 5

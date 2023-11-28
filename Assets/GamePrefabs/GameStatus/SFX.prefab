@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &664530507429187528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7478932578772126400}
+  - component: {fileID: 2834761854435220120}
+  m_Layer: 0
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7478932578772126400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664530507429187528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2834761854435220120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664530507429187528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce60ceebb0cec4489357948a33ed838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyExplosion: {fileID: 8300000, guid: 704590c45ebaa474895d46795eeee287, type: 3}
+  playerExplosion: {fileID: 8300000, guid: de1ab5db44296cc4aa71f8b89eb74def, type: 3}
+  grenadeGunExplosion: {fileID: 8300000, guid: 3305c0b150b86c844b0148c765715220, type: 3}
+  zapGunExplosion: {fileID: 8300000, guid: 3cda139a4a77abe4893bafc1b7a11c25, type: 3}
+  laserImpact: {fileID: 8300000, guid: af0ef12a5110e4047b499bd982539b8e, type: 3}
+  playerLaser:
+  - {fileID: 8300000, guid: 01573214738b98c43b9d2297a0608458, type: 3}
+  - {fileID: 8300000, guid: 3c333500f7dc6a94dab84fd5c69c19d4, type: 3}
+  - {fileID: 8300000, guid: 71c047f04d5236540a58960817e47242, type: 3}
+  - {fileID: 8300000, guid: f51a88e0ec87f994188aadf273e9c603, type: 3}
+  - {fileID: 8300000, guid: 42f1a5cfd9bd27344a4778cb89482d23, type: 3}
+  - {fileID: 8300000, guid: c1b21b3cbf087cf4dbb728947e9a5c90, type: 3}
+  - {fileID: 8300000, guid: c462c374ec6810547928817d340e455f, type: 3}
+  enemyLaser: {fileID: 8300000, guid: c29fb21786cebcb41a168e777a6a771d, type: 3}
+  backgroundMusic:
+  - {fileID: 8300000, guid: f6b2b8486bd16e441beaf63d4017d358, type: 3}
+  - {fileID: 8300000, guid: 9113a8a90b5a5ca42a7d9af05d6cf620, type: 3}
+  - {fileID: 8300000, guid: 6c3647c0f783d4e469f11afb0f036e29, type: 3}
+  - {fileID: 8300000, guid: e9fad82bd7df1bf468ddaa945de74e47, type: 3}
+  - {fileID: 8300000, guid: 816b6eab58d24c646a55f35fb63b0f1f, type: 3}
+  - {fileID: 8300000, guid: 6c39da3854a5ae0489a0b6d410368b2b, type: 3}
+  - {fileID: 8300000, guid: 64bf02e1a72d8574a80f4c917038c1b9, type: 3}
+  - {fileID: 8300000, guid: 1fdcd519391e0594b943db23b401e2df, type: 3}
+  shotGunDrop: {fileID: 8300000, guid: b90f8308c1416a8428cfa147c39efbaa, type: 3}
+  straightGunDrop: {fileID: 8300000, guid: 7931a97636e4fd84eb14a56b7de21123, type: 3}
+  lifeDrop: {fileID: 8300000, guid: 8f8177967034076448ae8e458241f5a9, type: 3}
+  upgradeDrop: {fileID: 8300000, guid: 3048bb06a88bf0a4698d3453af91821d, type: 3}
+  grenadeGunDrop: {fileID: 8300000, guid: ad3b9bd48535a9c45a2c4e79c2bf5e6e, type: 3}
+  shieldDrop: {fileID: 8300000, guid: 5a877fe6f33f3054897b90691eb835cb, type: 3}
+  shieldDown: {fileID: 8300000, guid: c6fe05e96040c624db0f42b2ef940358, type: 3}
+  tommyGunDrop: {fileID: 8300000, guid: 252c06f133a74eb41a8b3a6c87745de9, type: 3}
+  sniperGunDrop: {fileID: 8300000, guid: 4bc1e5995eed5cc4ab5b4c37f3b56aa4, type: 3}
+  zapGunDrop: {fileID: 8300000, guid: 23a7e14675eafaa44819da6ad1125a9a, type: 3}
+  beamLaserDrop: {fileID: 8300000, guid: f8a95014bed860f4f83f898c31c4feab, type: 3}
+  engagingEnemy: {fileID: 8300000, guid: a87d353bcf219554394c4ccea36948ff, type: 3}
+  miniBossExplosion: {fileID: 8300000, guid: fe3a69e48ee17c64f88c012e25834876, type: 3}
+  bossMissileSound: {fileID: 8300000, guid: 666c4da6c0de55641bf42514853b38b4, type: 3}
+  rocketLaunch: {fileID: 8300000, guid: 0a0a0c45a26cd294b8f2b59d3fdef194, type: 3}
+  rocketExplosion: {fileID: 8300000, guid: de1ab5db44296cc4aa71f8b89eb74def, type: 3}
+  bigBombDrop: {fileID: 8300000, guid: 07e44bdd601c8864f83662b235285a9a, type: 3}
+  atomicExplosion: {fileID: 8300000, guid: 869d41326bb5403448a9007a52ecf902, type: 3}
+  laserCharge: {fileID: 8300000, guid: bd27773d2f4278b42830d37cf78b2bb6, type: 3}
+  laserShot: {fileID: 8300000, guid: 484e0d459ea53434cb4c09c08dc2520e, type: 3}
+  rainBombExplosion: {fileID: 8300000, guid: 3305c0b150b86c844b0148c765715220, type: 3}
+  generalButton: {fileID: 8300000, guid: ff4f7ece632cf624087329cffeab069c, type: 3}
+  lifeUpgrade: {fileID: 8300000, guid: 42e3b35162da2394babb2f345e2743b7, type: 3}
+  attackUpgrade: {fileID: 8300000, guid: c8d657410c2609a4296b78858ad07744, type: 3}
+  shieldUpgrade: {fileID: 8300000, guid: e1375e54bf205b942b9fa70c9c6bbcc9, type: 3}
+  targetAquired: {fileID: 8300000, guid: ed6563aad1955ba45a2fcbb04bd93726, type: 3}

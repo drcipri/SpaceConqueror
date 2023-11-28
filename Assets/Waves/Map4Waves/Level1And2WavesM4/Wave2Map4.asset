@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5487459e6467e546aa1da13291221e9, type: 3}
+  m_Name: Wave2Map4
+  m_EditorClassIdentifier: 
+  enemyPrefab:
+  - {fileID: 6503222141802977696, guid: dc70f66c599255240adc70b5214815b9, type: 3}
+  - {fileID: 6503222141802977696, guid: 087326296b9204e44859872d255eadd8, type: 3}
+  - {fileID: 6503222141802977696, guid: d27ca0ea1380c2f4c9cc5940c5985dfc, type: 3}
+  numbersOfEnemiesType1: 3
+  numbersOfEnemiesType2: 9
+  pathPrefab: {fileID: 2391023686136823664, guid: 21d66bf6fc0a92345976e46fac5a2041,
+    type: 3}
+  timeBetweenSpawn: 0.2
+  numberOfEnemies: 14
+  enemySpeed: 26
+  movingPoints: 5

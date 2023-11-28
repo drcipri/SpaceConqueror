@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6739977187296525865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 768233297052075549}
+  - component: {fileID: 1256651208}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: EnemySpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &768233297052075549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6739977187296525865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1256651208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6739977187296525865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4ccbaa0b9c2a040a76e969df73386b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels: {fileID: 11400000, guid: f2b743a3b8c047244bc74bbc6a12f2db, type: 2}
+  whatLevelIsThis: 0
+  waveConfigs:
+  - {fileID: 11400000, guid: e2fdbca8ff3e01c47abd1abc826f6e14, type: 2}
+  - {fileID: 11400000, guid: 215d80d84d51d1049ac5db816a01b0bf, type: 2}
+  - {fileID: 11400000, guid: 89b8f3a1ebed8344f883ef5e7e5c6a60, type: 2}
+  - {fileID: 11400000, guid: cf0b12842ddc9da469141407b609f0c7, type: 2}
+  - {fileID: 11400000, guid: 427912c6232627249ad89b390408b3a4, type: 2}
+  - {fileID: 11400000, guid: 1166b884bbc6eab42804113ee806787e, type: 2}
+  - {fileID: 11400000, guid: e69918563b5feff468fe8086b6ba5be8, type: 2}
+  - {fileID: 11400000, guid: aee46170e064e4e43a526693496a6842, type: 2}
+  - {fileID: 11400000, guid: f27c55d94da0d2a43915aa89e53ebde2, type: 2}
+  startingWave: 0
+  timeBetweenWaves: 1

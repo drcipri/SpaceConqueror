@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a8127d9da4a5f4b8bd97b52effc71b, type: 3}
+  m_Name: Map4Level8Boss
+  m_EditorClassIdentifier: 
+  pathPrefab: {fileID: 1571500428749368871, guid: 440789e10659b9841b4be684629fb8dd,
+    type: 3}
+  bossSpeed: 6
+  minRandomNumber: 0
+  maxRandomNumber: 5
+  drops:
+  - {fileID: 7645161297609548794, guid: 95b13ede725f266428ea7276b08cabec, type: 3}
+  - {fileID: 3919452530087048880, guid: 2abd052680e762645b3e5f8858742f52, type: 3}
+  - {fileID: 3919452530087048880, guid: 0f432f9f968df014ba290d5efdcb37ba, type: 3}
+  dropRate: 0.9
+  dropCountDown: 8
+  shieldLife: 600000
+  shieldActive: 1
+  additionalGuns:
+  - {fileID: 1631920370529339752, guid: f18da8dc605fda54ca86c41d3db17f32, type: 3}
+  - {fileID: 1631920370529339752, guid: d499cf1714778c7419751872319a08d1, type: 3}
+  - {fileID: 1631920370529339752, guid: ddb45ae1d0469984287dd52f2c89d01e, type: 3}
+  missileCountDownOne: 1.5
+  bombOne: 1
+  missileCountDownTwo: 0
+  bombTwo: 0
+  missileCountDownThree: 5
+  bombThree: 1
