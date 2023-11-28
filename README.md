@@ -1,6 +1,6 @@
 # SpaceConqueror
 This is a classic space shooter game made with Unity.
-This is a legacy project that i worked on when i was learning the basics of c#. So i do not have commits because i did not knew git at that time. 
+This is an older project that i worked on when i was learning c#. So i do not have commits because i did not knew git at that time. 
 
 **Presentation**
 - [Game Images](https://drive.google.com/drive/folders/14MbMBVRnV72NEpdP_xqmwa5XfzMfW5kH?usp=sharing)
